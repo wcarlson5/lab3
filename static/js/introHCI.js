@@ -11,6 +11,7 @@ $(document).ready(function() {
 function initializePage() {
 	$("#testjs").click(function(e){
 				$('#testjs').text("no dont change me")
+				$(".jumbotron p").addClass("active");
 		});
 
 		$("a.thumbnail").click(projectClick);
