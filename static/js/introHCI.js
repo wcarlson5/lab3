@@ -26,6 +26,6 @@ function initializePage() {
 	    // In an event handler, $(this) refers to      
 	    // the object that triggered the event      
 	    $(this).css("background-color", "#7fff00");
-	    var containingProject = $(this).closest(".project");
-	    containingProject.append("<div class='project-description'><p>Description of the project.</p></div>");
+	    //var containingProject = $(this).closest(".project");
+	    //containingProject.append("<div class='project-description'><p>Description of the project.</p></div>");
 	}
