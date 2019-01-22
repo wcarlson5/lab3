@@ -10,7 +10,7 @@ $(document).ready(function() {
  */
 function initializePage() {
 	$("#testjs").click(function(e){
-				$('.jumbotron h1').text("JS is connected")
+				$('#testjs').text("no dont change me")
 		});
 
 		$("a.thumbnail").click(projectClick);
